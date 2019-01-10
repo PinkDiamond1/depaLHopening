@@ -19,6 +19,8 @@ body {
   overflow-x: hidden;
 }
 
+
+
 h1, h2, h3, h4 {
   font-size: 38px;
   font-weight: 700;
@@ -198,7 +200,7 @@ button:focus {
   height: 35px;
   line-height: 38px;
   display: block;
-  text-align: center;
+  text-align: ;
   border-radius: 100%;
   font-size: 16px;
   margin: 15px 6px 12px 6px;
@@ -335,7 +337,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .counter-section {
-  background: url(../img/background/bg-1.jpg);
+  background: url(../img/background/punch-leeds-header-6.jpg);
   overflow: hidden;
   position: relative;
 }
@@ -383,12 +385,12 @@ a.back-to-top:hover, a.back-to-top:focus {
 .timeline {
   position: relative;
 }
-
 .timeline .timelin-title {
   font-size: 20px;
   text-transform: uppercase;
   margin-left: 25px;
 }
+
 
 .timeline li {
   padding: 0 20px 20px 30px;
@@ -778,7 +780,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   Portfolio Section
    ========================================================================== */
 #portfolios {
-  background: #f2f2f2;
+  background: #ffffff;
 }
 
 #portfolios .mix {
@@ -861,7 +863,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   line-height: 42px;
   color: #dddd00;
   left: 50%;
-  margin-left: -24px;
+  margin-left: 0px;
   margin-top: -24px;
   top: 50%;
   position: absolute;
@@ -918,6 +920,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   -moz-transition: all 0.3s ease-in-out 0s;
   -webkit-transition: all 0.3s ease-in-out 0s;
   -o-transition: all 0.3s ease-in-out 0s;
+
 }
 
 .services-item .icon i {
